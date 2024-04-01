@@ -1,0 +1,41 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_qiyu_demo (0.0.1):
+    - Flutter
+    - QY_iOS_SDK (~> 9.1.0)
+  - integration_test (0.0.1):
+    - Flutter
+  - NIMSDK_LITE (8.9.110)
+  - QY_iOS_SDK (9.1.1):
+    - QY_iOS_SDK/Default (= 9.1.1)
+  - QY_iOS_SDK/Default (9.1.1):
+    - NIMSDK_LITE (= 8.9.110)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_qiyu_demo (from `.symlinks/plugins/flutter_qiyu_demo/ios`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+
+SPEC REPOS:
+  trunk:
+    - NIMSDK_LITE
+    - QY_iOS_SDK
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_qiyu_demo:
+    :path: ".symlinks/plugins/flutter_qiyu_demo/ios"
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_qiyu_demo: cea8fb2cd8a6ed3453a973d9d6a9f80088e451e6
+  integration_test: 13825b8a9334a850581300559b8839134b124670
+  NIMSDK_LITE: 299ff39677d705b91413d14ad352b32a1b0e72fe
+  QY_iOS_SDK: 4372950b7622d93ef801e5f392e8691bee87c87f
+
+PODFILE CHECKSUM: 6e700dec67e6deac9b1c69bb14c49a2217a12d15
+
+COCOAPODS: 1.15.2
